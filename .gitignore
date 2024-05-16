@@ -75,4 +75,4 @@ bcov_injection
 # Sensitive Information
 # Ignore configuration files with sensitive information
 GoogleService-Info.plist
-
+Auth0.plist
