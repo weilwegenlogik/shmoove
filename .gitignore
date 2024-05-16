@@ -1,0 +1,78 @@
+# Xcode
+.DS_Store
+*/build
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+
+# Xcode iOS
+build
+*.ipa
+*.xcuserstate
+
+# Swift Package Manager
+# Add this line if you have a Package.resolved file in the project
+Package.resolved
+# Add this line if you have a .build directory in the project
+.build/
+
+# CocoaPods
+Pods
+Podfile.lock
+# Add this line if you’re using the cache storage in CocoaPods 1.8+
+*.xcworkspace
+
+# Carthage
+Carthage/Build
+
+# Accio dependency management
+Dependencies
+.accio/
+.swiftpm/xcode
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/test_output/screenshots
+# if you’re using fastlane to upload app metadata and binaries to the App Store
+fastlane/metadata
+fastlane/deliver
+fastlane/*.txt
+
+# Code Injection
+bcov_injection
+
+# Provisioning profiles
+*.mobileprovision
+
+# App files
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Simulator devices
+*.deviceinfo
+*.userdata
+
+# AppIcon and LaunchImage files
+*.appiconset/*.json
+*.launchimage/*.json
+
+# SwiftUI Previews
+.swiftpm/xcode/xcuserdata/
+
+# Sensitive Information
+# Ignore configuration files with sensitive information
+GoogleService-Info.plist
+
