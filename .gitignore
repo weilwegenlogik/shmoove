@@ -74,5 +74,5 @@ bcov_injection
 
 # Sensitive Information
 # Ignore configuration files with sensitive information
-GoogleService-Info.plist
-Auth0.plist
+shmoove/GoogleService-Info.plist
+shmoove/Auth0.plist
